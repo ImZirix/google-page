@@ -1,0 +1,130 @@
+* {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+} 
+ul {
+  list-style-type: none;
+}
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  height: 48px;
+  margin-top: 10px;
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 200px;
+
+}
+.nav-ul {
+  display: flex;
+}
+.nav-li {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  font-size: 13px;
+  color: #1f1f1f;
+}
+.grid-icon {
+  fill: #444746;
+  width: 24px;
+  height: 24px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:visited, a:hover, a:active. a:focus {
+  color: black;
+}
+.nav-button-sign {
+  display: flex;
+  background-color: #0b57d0;
+  color: white;
+  padding: 20px;
+  border-radius: 100px;
+  border: #0b57d0;
+  height: 20px;
+  width: 85px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.nav-button-sign:hover {
+
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  width: 500px;
+
+}
+.search-bar-input {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 100px;
+  width: 1000px;
+  height: 30px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  background: url(/images/mic-icon.svg) no-repeat right 50px center, url(/images/google-lens.svg) no-repeat right 10px center
+  #fff;
+  background-size: 30px 30px, 30px 30px;
+}
+.inside-icon {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+.icon-link {
+  display: flex;
+  align-items: center;
+}
+.under-search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-button {
+  padding: 10px;
+  background-color: #f8f9fa;
+  border: 0px;
+  margin: 10px;
+}
+.lang {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.arabic {
+  margin-top: 20px;
+  font-weight: 100;
+  font-size: small ;
+  margin-bottom: 200px;
+}
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+.about {
+  height: 59px;
+}
+.about-ul {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.about-list {
+  margin: 10px;
+}
